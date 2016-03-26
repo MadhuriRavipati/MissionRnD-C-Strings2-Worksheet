@@ -58,7 +58,7 @@ namespace spec
 		{
 			char *str=NULL;
 			int consonants ;
-			int vowels ;
+			int vowels;
 			count_vowels_and_consonants(str, &consonants, &vowels);
 
 			Assert::AreEqual(consonants, 0, L"Consonants should be 0 for NULL", LINE_INFO());
